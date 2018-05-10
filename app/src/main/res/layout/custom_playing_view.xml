@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/btn_playing"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_alignParentBottom="true"
+    android:orientation="vertical"
+    app:layout_behavior="@string/bottom_sheet_behavior">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line_horizontal" />
+
+    <RelativeLayout
+        android:id="@+id/btn_play_view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/img_playing_star"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/shape_square_frame"
+            android:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/img_playing_star"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_song_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="控诉"
+                android:textColor="@color/text_black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/text_star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="张学友"
+                android:textColor="@color/text_gray"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btn_next"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/selector_bg_next"
+            android:gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/selector_src_next" />
+
+        <ImageButton
+            android:id="@+id/ben_pause"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:layout_toLeftOf="@id/btn_next"
+            android:background="@drawable/selector_bg_play"
+            android:gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/selector_src_play" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <color name="colorPrimary">#F9F3FF</color>
+    <color name="colorPrimaryDark">#FDFCFF</color>
+    <color name="colorAccent">#FDFCFF</color>
+    <color name="activity_bgColor">#E7E7E7</color>
+    <color name="toolbar_bg">#FF1262</color>
+    <color name="text_gray">#AAAAAA</color>
+    <color name="white">#FFFF</color>
+    <color name="black">#111111</color>
+    <color name="line_horizontal">#BABABA</color>
+    <color name="line_vertical">#777777</color>
+    <color name="text_black">#262626</color>
 </resources>
